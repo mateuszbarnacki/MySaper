@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SaperPackage.CustomWindow">
+    <center>
+        <VBox BorderPane.alignment="CENTER" spacing="10">
+            <VBox BorderPane.alignment="CENTER" spacing="5">
+                <children>
+                    <Label textAlignment="LEFT" text="Enter the number of columns in the range from 8 to 30:"></Label>
+                    <TextField fx:id="columnsTextField" maxWidth="200" alignment="CENTER"></TextField>
+                </children>
+            </VBox>
+            <VBox BorderPane.alignment="CENTER" spacing="5">
+                <children>
+                    <Label textAlignment="LEFT" text="Enter the number of rows in the range from 8 to 24:"></Label>
+                    <TextField fx:id="rowsTextField" maxWidth="200" alignment="CENTER"></TextField>
+                </children>
+            </VBox>
+            <VBox BorderPane.alignment="CENTER" spacing="5">
+                <children>
+                    <Label fx:id="minesInfoLabel" textAlignment="LEFT" text="Enter the number of mines in the range from 10 to 668:"></Label>
+                    <TextField fx:id="minesTextField" maxWidth="200" alignment="CENTER" onMouseClicked="#editMinesInfoLabel" onKeyTyped="#editMinesInfoLabelSec"></TextField>
+                </children>
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>

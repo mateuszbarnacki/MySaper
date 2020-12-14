@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="SaperPackage.WinnersWindow"
+            prefHeight="400.0" prefWidth="300.0">
+    <headerText>
+        List of the winners:
+    </headerText>
+    <content>
+        <BorderPane>
+            <center>
+                <TableView fx:id="resultsTable" prefWidth="279.0">
+                    <columns>
+                        <TableColumn text="Name" minWidth="140.0">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="name"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                        <TableColumn text="Time" minWidth="140.0">
+                            <cellValueFactory>
+                                <PropertyValueFactory property="time"/>
+                            </cellValueFactory>
+                        </TableColumn>
+                    </columns>
+                </TableView>
+            </center>
+        </BorderPane>
+    </content>
+</DialogPane>

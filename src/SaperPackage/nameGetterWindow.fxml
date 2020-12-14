@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<DialogPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="SaperPackage.NameGetterWindow"
+            prefHeight="150.0" prefWidth="200.0">
+    <headerText>
+        Enter your name:
+    </headerText>
+    <content>
+        <BorderPane>
+            <center>
+                <VBox spacing="5">
+                    <TextField fx:id="nameGetter" text="Winner" onMouseExited="#validateField"/>
+                    <Label fx:id="label" text="Empty field!" textAlignment="CENTER" visible="false" style="-fx-text-fill: red; -fx-font-size: 12"/>
+                </VBox>
+            </center>
+        </BorderPane>
+    </content>
+</DialogPane>
