@@ -6,7 +6,7 @@
 <?import javafx.scene.control.cell.PropertyValueFactory?>
 <DialogPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="SaperPackage.DataModel.WinnersWindowController"
+            fx:controller="SaperPackage.Windows.WinnersWindowController"
             prefHeight="400.0" prefWidth="300.0">
     <headerText>
         List of the winners:

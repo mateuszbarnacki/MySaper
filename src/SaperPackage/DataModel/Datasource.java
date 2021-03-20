@@ -9,7 +9,7 @@ public class Datasource {
 
     public static final String DB_NAME = "minesweeper_winners.db";
 
-    public static final String CONNECTION_STRING = "jdbc:sqlite:D:." + File.separator + DB_NAME;
+    public static final String CONNECTION_STRING = "jdbc:sqlite:." + File.separator + DB_NAME;
 
     public static final String TABLE_EASY = "easy";
     public static final String TABLE_EASY_NAME = "name";

@@ -1,9 +1,8 @@
 package SaperPackage.Windows;
 
 import SaperPackage.Boards.MinesweeperBoard;
-import SaperPackage.DataModel.Converter;
+import SaperPackage.Utilities.Converter;
 import SaperPackage.DataModel.Datasource;
-import SaperPackage.DataModel.WinnersWindowController;
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.collections.ObservableList;

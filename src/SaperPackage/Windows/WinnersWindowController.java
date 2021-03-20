@@ -1,5 +1,7 @@
-package SaperPackage.DataModel;
+package SaperPackage.Windows;
 
+import SaperPackage.DataModel.Datasource;
+import SaperPackage.DataModel.TimeResult;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.concurrent.Task;
